@@ -150,7 +150,7 @@ class ImageInfoPanel(QGroupBox):
         except IOError:
             print "I/O Error for file:", image_path
 
-
+"""Kindly add comments to this part of the code to nexplain what the lines do"""
 class ImagePanel(QWidget):
     def __init__(self, parent=None):
         QWidget.__init__(self, parent)
